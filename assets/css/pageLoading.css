@@ -131,3 +131,15 @@
         transform: translate(0);
     }
 }
+
+/* Pointer btn */
+a {
+    pointer-events: initial !important;
+    cursor: pointer !important;
+}
+
+/* Padding Card */
+.card-flip-front,
+.card-flip-back {
+    padding: 0 !important;
+}

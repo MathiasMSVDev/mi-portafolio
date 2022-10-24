@@ -28,15 +28,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
+    <!-- icofont -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/icofont.min.css">
+
     <!-- Main Theme Styles + Bootstrap-->
     <link rel="stylesheet" media="screen" href="./assets/css/theme.min.css">
-
-    <style>
-        a {
-            pointer-events: initial !important;
-            cursor: pointer !important;
-        }
-    </style>
 </head>
 
 <body class="bg-secondary">
@@ -56,7 +52,7 @@
             <div class="container">
                 <!-- Logo -->
                 <a class="navbar-brand pe-sm-3" href="./index.html">
-                    José
+                    JS
                 </a>
 
                 <!-- Button Theme Mode -->
@@ -92,7 +88,7 @@
                             <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Hobbies</a>
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Formación</a>
@@ -410,6 +406,14 @@
                 <div class="row row-cols-2 row-cols-md-4 g-0">
                     <div class="col d-md-flex justify-content-center text-center text-md-center position-relative">
                         <div class="p-3 px-sm-0">
+                            <img class="d-inline-block mb-3 mb-lg-4 skills__blob" src="./assets/img/sql-server.png"
+                                style="max-width: 60px; width: 100%;">
+                            <h3 class="h5 mb-2">MS SQL Server</h3>
+                            <span>Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="col d-md-flex justify-content-center text-center text-md-center position-relative">
+                        <div class="p-3 px-sm-0">
                             <img class="d-inline-block mb-3 mb-lg-4 skills__blob" src="./assets/img/mysql-6.svg"
                                 style="max-width: 50px; width: 100%;">
                             <h3 class="h5 mb-2">MySQL</h3>
@@ -430,6 +434,98 @@
                                 style="max-width: 50px; width: 100%;">
                             <h3 class="h5 mb-2">MongoDB</h3>
                             <span>Intermedio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies -->
+        <section class="container pt-5 pb-5 mt-5 mb-5 bg-light rounded-5" id="hobbies">
+            <h2 class="text-center pt-5 pb-5 mt-5 mb-5">Hobbies</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <!-- Item-->
+                <div class="col">
+                    <div class="card card-flip">
+                        <div class="card-flip-inner">
+                            <div class="d-flex align-items-center card-flip-front bg-secondary rounded-5">
+                                <div class="card-body text-center">
+                                    <i class="ai-headphone mb-3 text-primary" style="font-size: 5rem;"></i>
+                                    <h3>Escuchar música</h3>
+                                </div>
+                            </div>
+                            <div class="card-flip-back bg-primary rounded-5">
+                                <div class="card-body text-center">
+                                    <i class="ai-music mb-5 text-white" style="font-size: 5rem;"></i>
+                                    <p class="card-text text-white opacity-70">
+                                        Me gusta escuchar música, me relaja y me ayuda a concentrarme.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item-->
+                <div class="col">
+                    <div class="card card-flip">
+                        <div class="card-flip-inner">
+                            <div class="d-flex align-items-center card-flip-front bg-secondary rounded-5">
+                                <div class="card-body text-center">
+                                    <i class="ai-monitor mb-3 text-primary" style="font-size: 5rem;"></i>
+                                    <h3>Ver series y peliculas</h3>
+                                </div>
+                            </div>
+                            <div class="card-flip-back bg-primary rounded-5">
+                                <div class="card-body text-center">
+                                    <i class="ai-movie mb-5 text-white" style="font-size: 5rem;"></i>
+                                    <p class="card-text text-white opacity-70">
+                                        Me gusta ver series y peliculas, me relaja y me ayuda a desconectarme.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item-->
+                <div class="col">
+                    <div class="card card-flip">
+                        <div class="card-flip-inner">
+                            <div class="d-flex align-items-center card-flip-front bg-secondary rounded-5">
+                                <div class="card-body text-center">
+                                    <i class="icofont-terminal icofont-5x text-primary"></i>
+                                    <h3 class="mt-3">Programación web</h3>
+                                </div>
+                            </div>
+                            <div class="card-flip-back bg-primary rounded-5">
+                                <div class="card-body text-center">
+                                    <i class="icofont-code-alt icofont-5x text-white"></i>
+                                    <p class="card-text text-white opacity-70 mt-5">
+                                        Me gusta programar, cada día aprendo nuevas cosas en el mundo de la
+                                        programación.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item-->
+                <div class="col">
+                    <div class="card card-flip">
+                        <div class="card-flip-inner">
+                            <div class="d-flex align-items-center card-flip-front bg-secondary rounded-5">
+                                <div class="card-body text-center">
+                                    <i class="icofont-cycling-alt icofont-5x text-primary"></i>
+                                    <h3 class="mt-3">Practicar ciclismo</h3>
+                                </div>
+                            </div>
+                            <div class="card-flip-back bg-primary rounded-5">
+                                <div class="card-body text-center">
+                                    <i class="icofont-cycling icofont-5x text-white"></i>
+                                    <p class="card-text text-white opacity-70 mt-5">
+                                        Me gusta practicar ciclismo, ir a maxima velocidad y sentir la adrenalina.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -684,6 +780,7 @@
 
     <!-- Main theme script-->
     <script src="./assets/js/theme.min.js"></script>
+    <script src="./assets/js/navbar.js"></script>
 
 </body>
 
